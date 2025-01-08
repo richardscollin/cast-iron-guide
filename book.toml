@@ -16,6 +16,7 @@ create-missing = false
 # https://rust-lang.github.io/mdBook/format/configuration/renderers.html?highlight=output.html#html-renderer-options
 [output.html]
 default-theme = "skillet"
+preferred-dark-theme = "skillet"
 print.enable = false
 search.enable = false
 
