@@ -1,0 +1,27 @@
+# https://rust-lang.github.io/mdBook/
+# https://rust-lang.github.io/mdBook/format/configuration/general.html
+[book]
+title = "Cast Iron Guide"
+authors = ["Collin Richards"]
+language = "en"
+multilingual = false
+src = "src"
+
+[rust]
+edition = "2021"
+
+[build]
+create-missing = false
+
+# https://rust-lang.github.io/mdBook/format/configuration/renderers.html?highlight=output.html#html-renderer-options
+[output.html]
+print.enable = false
+search.enable = false
+
+[output.html.playground]
+runnable = false
+
+# - a safe, concurrent, practical language
+# - Rust is a systems programming language that runs blazingly fast, prevents almost all crashes*, and eliminates data races. 
+# - Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. 
+# - A language empowering everyone to build reliable and efficient software. 
