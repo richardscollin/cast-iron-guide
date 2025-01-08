@@ -12,3 +12,4 @@
   - [Readability and Tuples](rules/tuples.md)
 - [Newbie Corner]()
   - [FAQ](newbie/faq.md)
+- [Work in Progress](work-in-progress.md)
